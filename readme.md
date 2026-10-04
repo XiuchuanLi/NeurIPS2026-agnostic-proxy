@@ -1,3 +1,10 @@
+# Causal Effect Identification with a Single Agnostic Proxy
+
+[![Paper](https://img.shields.io/badge/paper-NeurIPS-green)]()
+
+This repository is the official implementation of [Causal Effect Identification with a Single Agnostic Proxy] (NeurIPS 2026).
+
+
 ## Usage
 
 Install kerpy (a package adapted from https://github.com/oxcsml/kerpy)
