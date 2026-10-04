@@ -19,7 +19,6 @@ Run causal effect estimation
 
 ```(bash)
 python main.py
-cd ..
 ```
 
 
