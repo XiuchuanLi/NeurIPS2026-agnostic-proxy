@@ -18,7 +18,6 @@ cd ..
 Run causal effect estimation
 
 ```(bash)
-cd algorithm
 python main.py
 cd ..
 ```
