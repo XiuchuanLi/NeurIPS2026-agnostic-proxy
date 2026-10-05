@@ -10,8 +10,6 @@ graph = 'a' # 'a' or 'b' or 'c' or 'd' or 'e' or 'f' or 'g' or 'h'
 
 latent, observed = 1, 3
 print(distribution, 'Fig. 3(', graph, ')')
-results = [[], []]
-weight_pred, weight_true = [], []
 data, weights, w_id = generate_data(graph, n_samples=n_samples, distribution=distribution, seed=2026)
 Z, T, O = data[:, 0], data[:, 1], data[:, 2]
 graph_pred = structure(T, O, Z)
